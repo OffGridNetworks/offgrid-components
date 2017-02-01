@@ -1,0 +1,37 @@
+{
+  "name": "offgrid-components",
+  "description": "Chat-based UI for React",
+  "version": "0.1.1",
+  "main": "dist/OGNComponents.js",
+  "dependencies": {
+    "mobx": "^3.0.2",
+    "mobx-react": "^4.1.0",
+    "moment": "^2.17.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "homepage": "http://offgridn.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/offgridnetworks/offgrid-components.git"
+  },
+  "keywords": [
+    "nodekit",
+    "offgrid",
+    "offgridn"
+  ],
+  "author": "OffGrid Networks",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@kadira/storybook": "^2.35.3",
+    "babel-cli": "^6.22.2",
+    "babel-eslint": "^7.1.1",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "prepublish": "babel ./src --out-dir ./dist --copy-files"
+  }
+}

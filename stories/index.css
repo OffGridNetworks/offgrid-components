@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+.App-sidebar-item {
+  font-size: 12px;
+  text-align: left;
+}
+
+.App-sidebar-heading {
+  font-size: 20px;
+    padding: 1em;
+}
+
+h6 {
+  color:#8E8E93;
+}
